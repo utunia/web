@@ -1,10 +1,5 @@
-
+<style>
+    @import url("/app.css");
+</style>
 
 <slot/>
-
-<style global>
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-    
-</style>
