@@ -39,7 +39,7 @@
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             <div
 
-            role="button" on:click={() => goto('/signup')}
+            role="button" on:click={() => goto('/signin')}
                 class="w-[6.9375rem] h-[2.8125rem] rounded-[0.375rem] btn-primary btn text-[#000] text-center flex justify-center content-center flex-col"
                 style="font-size: 0.375rem;line-height: 0.275rem; /* 233.333% */letter-spacing: 0.03375rem; color:black;"
             >
@@ -58,7 +58,7 @@
     <!--end button 1-->
     
     <!-- button 2 -->
-            <div
+            <div role="button" on:click={() => goto('/signup')}
                 class="w-[6.9375rem] h-[2.8125rem] rounded-[0.375rem] btn-secondary btn text-[##B9C4AF] text-center flex justify-center content-center flex-col"
                 style="font-size: 0.375rem;line-height: 0.275rem; /* 233.333% */letter-spacing: 0.03375rem;">
                 <div>
