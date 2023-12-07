@@ -124,7 +124,7 @@
 		}
 
 		if (current_pagination == 2) {
-			current_pagination = 3;
+			
 		}
 	};
 
@@ -149,7 +149,7 @@
 	<!-- svelte-ignore a11y-interactive-supports-focus -->
 	<center>
 		
-		<h1 class="text-primary text-xl">Establish Your Nation.</h1>
+		<h1 class="text-primary text-xl mt-1">Establish Your Nation.</h1>
 
 		<div class="md:w-[20.0625rem] lg:w-[25.0625rem] w-[80%] h-full p-3 mt-10">
 			{#if current_pagination === 1}
