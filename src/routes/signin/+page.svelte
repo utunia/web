@@ -6,7 +6,7 @@
 
 	let form_data = {
 		nation_name: '',
-        password: '',
+        nation_passkey: '',
     }
 
 </script>

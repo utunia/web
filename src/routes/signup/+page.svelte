@@ -14,6 +14,7 @@
 		nation_currency: '',
 		nation_classification: '',
 		nation_ideology: '',
+		nation_passkey: ''
 		q1: false,
 		q2: false,
 		q3: false,
@@ -24,7 +25,6 @@
 		q8: false,
 		q9: false,
 		q10: false,
-		password: ''
 	};
 	$: current_pagination = 1;
 
@@ -93,7 +93,6 @@
 		'Communist',
 		'Fascist',
 		'Nationalist',
-		'Feminist',
 		'Technocratic'
 	];
 

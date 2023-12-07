@@ -27,7 +27,8 @@
             style="letter-spacing: 1.1pt;"
         >
             <p>
-                lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem
+                Create your own nation, engage in diplomatic relations, Watch your country evolve based on your choices.
+
             </p>
         </div>
     
