@@ -1,3 +1,8 @@
+<script>
+
+	import { goto } from "$app/navigation";
+
+</script>
 <svelte:head>
     <title>Utunia | Home</title>
 </svelte:head>
@@ -19,15 +24,22 @@
     
         <div
             class="w-[18.0625rem] h-[4.375rem] text-center text-stone-100 text-[0.6rem] font-normal leading-[0.875rem]  text-md"
-            style="letter-spacing: 0.045rem;"
+            style="letter-spacing: 1.1pt;"
         >
-            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem
+            <p>
+                lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem
+            </p>
         </div>
     
     
+        <!-- svelte-ignore a11y-interactive-supports-focus -->
         <div class="md:grid  md:grid-cols-2 md:space-x-3 lg:scale-125 flex flex-col md:space-y-0 space-y-5">
     <!--button 1-->
+            <!-- svelte-ignore a11y-interactive-supports-focus -->
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
             <div
+
+            role="button" on:click={() => goto('/signup')}
                 class="w-[6.9375rem] h-[2.8125rem] rounded-[0.375rem] btn-primary btn text-[#000] text-center flex justify-center content-center flex-col"
                 style="font-size: 0.375rem;line-height: 0.275rem; /* 233.333% */letter-spacing: 0.03375rem; color:black;"
             >
@@ -37,7 +49,7 @@
                     </svg>
                 </div>
     
-                <div>
+                <div role="button">
                     <p>
                         Log-into nation
                     </p>
@@ -72,6 +84,8 @@
                     </svg>
                 </div>
     
+                <!-- svelte-ignore a11y-interactive-supports-focus -->
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
                 <div>
                     <p>create your nation</p>
                 </div>
