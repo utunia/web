@@ -14,7 +14,7 @@
 		nation_currency: '',
 		nation_classification: '',
 		nation_ideology: '',
-		nation_passkey: ''
+		nation_passkey: '',
 		q1: false,
 		q2: false,
 		q3: false,
@@ -54,11 +54,8 @@
 		'Special Administrative Region',
 		'Free City',
 		'Crown Dependency',
-		'Dependent Territory',
-		'Associated State',
 		'Protectorate',
 		'Mandate',
-		'Trust Territory',
 		'Colony',
 		'Dominion',
 		'Commonwealth Realm',
@@ -305,7 +302,7 @@
 		background-size: 2em 2em;
 		background-color: #070806;
 		opacity: 1;
-		overflow-x: hidden;
+		/* overflow-x: hidden; */
 	}
 
 	.inp {

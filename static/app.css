@@ -13,3 +13,32 @@
     box-sizing: border-box;
     font-family: Inknut Antiqua;
 }
+
+html {
+    background: linear-gradient(
+				0deg,
+				transparent 45%,
+				#0b0c0a 45%,
+				#0b0c0a 55%,
+				transparent 55%,
+				transparent 20%,
+				#0b0c0a 20%,
+				#0b0c0a 30%,
+				transparent 30%
+			),
+			linear-gradient(
+				90deg,
+				transparent 45%,
+				#0b0c0a 45%,
+				#0b0c0a 55%,
+				transparent 55%,
+				transparent 20%,
+				#0b0c0a 20%,
+				#0b0c0a 30%,
+				transparent 30%
+			);
+		background-size: 2em 2em;
+		background-color: #070806;
+		opacity: 1;
+		overflow-x: hidden;
+}

@@ -2,7 +2,7 @@
     export let value: string
     export let arr: [string]
     export let placeholder: string
-
+    let is_closed = false
 </script>
 
 <div>
@@ -14,11 +14,11 @@
     />
 
     <div
-        class="w-[13.0625rem] max-h-36 min-h-24 overflow-auto absolute bg-neutral mx-auto left-0 right-0 chose"
+        class="w-[13.0625rem] max-h-36 min-h-24 overflow-auto absolute bg-neutral mx-auto left-0 right-0 chose" class:hidden={is_closed}
         style="z-index: 3"
     >
-        <div class="flex justify-start content-center flex-col">
-            {#if value != ''}
+        <div class="flex justify-start content-center flex-col" >
+            {#if value != '' && !arr.includes(value)  }
                 {#each arr as item}
                     {#if item
                         .toLowerCase()
@@ -33,6 +33,7 @@
                         </div>
                     {/if}
                 {/each}
+          
             {/if}
         </div>
     </div>
@@ -41,7 +42,7 @@
 
 
 
-<style>
+<style lang="scss">
     
     .chose::-webkit-scrollbar {
       width: 5px;
@@ -78,6 +79,7 @@
     .inp::placeholder {
       color: rgba(255, 255, 255, 0.733);
     }
-  
+
+
 
 </style>
