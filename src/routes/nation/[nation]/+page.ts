@@ -1,5 +1,6 @@
-export function load({ params }: { params: { nation: string } }) {
+export async function load({ params  }) {
+
     return {
-        nation: params.nation
+        nation: params.nation,
     };
 }

@@ -94,14 +94,14 @@
 	];
 
 	const questions = [
-		'1. Compulsory 1-year military service and a strong military?',
+		'1. Compulsory 1-year military service and a strong military.',
 		'2. Democracy is superior.',
 		'3. Religion as the main law.',
 		'4. Absolute freedom of speech, even for hate speech.',
-		'5. Direct punishment for criminals, and the death penalty is appropriate?',
-		'6. Military intervention for human rights, and privatization is good?',
+		'5. Direct punishment for criminals, and the death penalty is appropriate.',
+		'6. Military intervention for human rights, and privatization is good.',
 		'7. Immigration contributes positively to cultural diversity.',
-		'8. War can be justified?',
+		'8. War can be justified.',
 		'9. The nation should have an official religion to promote a shared identity.',
 		'10. The state should remain neutral and not interfere in religious matters.'
 	];
@@ -141,7 +141,7 @@
 	<title>Utunia | Sign Up</title>
 </svelte:head>
 
-<div class="ll w-screen h-screen">
+<div class="ll h-screen">
 	<!-- svelte-ignore a11y-interactive-supports-focus -->
 	<center>
 		
